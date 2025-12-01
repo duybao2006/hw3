@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - CSS Positioning & Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Skip to Main Content link -->
+    <a href="#main-content" class="skip-link">Skip to Main Content</a>
+    
+    <header>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="nature.html">Nature Gallery</a></li>
+                <li><a href="cities.html">World Cities</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main id="main-content">
+        <section class="hero">
+            <h1>Welcome to CSS Positioning & Layout</h1>
+            <p>This project demonstrates advanced CSS techniques including positioning, flexbox, grid, and more!</p>
+        </section>
+        
+        <section class="intro-grid">
+            <div class="intro-card">
+                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Mountain landscape">
+                <h2>CSS Grid</h2>
+                <p>Experience powerful grid layouts that create responsive designs.</p>
+            </div>
+            
+            <div class="intro-card">
+                <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Flexbox concept">
+                <h2>Flexbox</h2>
+                <p>Learn flexible box layouts for modern web design.</p>
+            </div>
+            
+            <div class="intro-card">
+                <img src="https://images.unsplash.com/photo-1558655146-364adaf1fcc9?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Positioning examples">
+                <h2>Positioning</h2>
+                <p>Master CSS positioning techniques for precise layouts.</p>
+            </div>
+        </section>
+        
+        <section class="features">
+            <h2>Project Features</h2>
+            <ul>
+                <li>CSS Grid Layouts</li>
+                <li>Flexbox Navigation</li>
+                <li>Hover Effects</li>
+                <li>Nth-child Selectors</li>
+                <li>Accessibility Focus</li>
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 CSS Positioning Project. All images from Unsplash.</p>
+        <p>Validated with W3C Validator and WAVE Accessibility Tool</p>
+    </footer>
+</body>
+</html>
